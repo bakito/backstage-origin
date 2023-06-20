@@ -274,7 +274,7 @@ export const CITableView = ({
       onRowsPerPageChange={onChangePageSize}
       title={
         <Box display="flex" alignItems="center">
-          <img src={JenkinsLogo} alt="Jenkins logo" style="height: 50px" />
+          <img src={JenkinsLogo} alt="Jenkins logo" style={{ height: '50px' }} />
           <Box mr={2} />
           <Typography variant="h6">Projects</Typography>
         </Box>
